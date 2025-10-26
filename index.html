@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koushik- Premium Elite Financial Advisory</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="preloader" id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-dot-outline" id="cursorOutline"></div>
+
+    <div id="scrollProgressBar"></div>
+
+    <header class="main-header" id="pageHeader">
+         <div class="container">
+            <div class="logo"><a href="#hero">koushik</a></div>
+            <nav id="mainNavMenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                     <li><a href="#stats">Our Impact</a></li>
+                    <li><a href="#why-choose-us">Why Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="navToggleBtn" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times close-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" aria-label="Dynamic background showcasing financial advisory themes">
+            <div class="hero-background-image" id="heroBgImage"></div>
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>
+                        <span class="word">Guiding</span> <span class="word">Your</span> <span class="word">Path</span> <span class="word">to</span> <span class="word">Financial</span> <span class="word">Prosperity</span>
+                    </h1>
+                    <p class="subtitle animate-on-scroll aos-skew-fade-up delay-800">Expert advisory in Life & Health Insurance, General Insurance (Car, Travel), and Mutual Fund Investments.</p>
+                    <p class="hero-slogan animate-on-scroll aos-skew-fade-up delay-1000">Your Comprehensive Partner for All Financial Planning Needs.</p>
+                    <a href="#contact" class="btn"><span class="btn-text">Request a Consultation</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section section-divider bottom-angle">
+            <div class="container">
+                 <h2 class="animate-on-scroll aos-zoom-in">Meet Your Financial Strategist</h2>
+                <div class="about-grid">
+                    <div class="about-image-wrapper animate-on-scroll aos-fade-right aos-zoom-in delay-200">
+                        <!-- IMPORTANT: Replace this local path with a web URL for your image -->
+                        <img src="011163d8-a334-4ba8-a3ab-fe70eb73fdd4.png" alt="koushik, a professional financial strategist in a business setting." id="aboutImageParallax" class="about-image" loading="lazy">
+                    </div>
+                    <div class="about-content animate-on-scroll aos-fade-left delay-400">
+                        <h3 class="animate-on-scroll aos-fade-up">koushik</h3>
+                        <p class="animate-on-scroll aos-fade-up delay-200">With a deep-seated passion for financial empowerment, I, koushik, am dedicated to providing insightful and ethical financial advice. My journey in the financial sector has been driven by a singular mission: to help individuals and families navigate the complexities of financial planning with clarity and confidence.</p>
+                        <p class="animate-on-scroll aos-fade-up delay-400">I believe in a holistic approach, meticulously analyzing your unique circumstances, aspirations, and risk appetite to develop tailored strategies. Whether it's securing your family's future through robust insurance policies or growing your wealth via prudent investments, my commitment is to be your unwavering partner.</p>
+                        <span class="mdrt-badge animate-on-scroll aos-zoom-in delay-600"><i class="fas fa-shield-alt"></i>MDRT+ CHIEF LIFE PLANNER</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section section-light-bg section-divider top-angle bottom-angle">
+             <div class="container">
+                <h2 class="animate-on-scroll aos-zoom-in">Comprehensive Financial Solutions</h2>
+                <div class="services-grid grid-focus-effect">
+                    <div class="service-card animate-on-scroll aos-flip-left aos-scale-sm life-insurance">
+                        <div class="card-image">
+                            <!-- IMPORTANT: Replace this local path with a web URL for your image -->
+                            <img src="https://www.shutterstock.com/image-photo/insurance-company-clients-take-out-260nw-2484469771.jpg" alt="Umbrella icon and family model representing security and life insurance protection." loading="lazy">
+                        </div>
+                        <div class="icon-wrapper"><i class="fas fa-shield-heart icon"></i></div>
+                        <div class="card-content">
+                            <h3>Life Insurance</h3>
+                            <p>Secure your family's future with tailored life insurance plans from leading providers.</p>
+                        </div>
+                        <div class="card-footer"><span class="company-tags"><span>TATA AIA</span> <span>LIC</span></span></div>
+                    </div>
+                    <div class="service-card animate-on-scroll aos-flip-right aos-scale-sm delay-200 health-insurance">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=70" alt="Medical equipment like a stethoscope representing health insurance." loading="lazy">
+                        </div>
+                        <div class="icon-wrapper"><i class="fas fa-briefcase-medical icon"></i></div>
+                        <div class="card-content">
+                            <h3>Health Insurance</h3>
+                            <p>Protect against medical expenses with comprehensive health coverage options.</p>
+                        </div>
+                         <div class="card-footer"><span class="company-tags"><span>Star Health</span> <span>Care</span> <span>TATA AIG</span></span></div>
+                    </div>
+                     <div class="service-card animate-on-scroll aos-flip-left aos-scale-sm delay-400 car-insurance">
+                         <div class="card-image">
+                            <!-- IMPORTANT:Replace this local path with a web URL for your image -->
+                            <img src="Screenshot 2025-06-05 102923.png" alt="Illustration of a car with a shield representing car insurance protection." loading="lazy">
+                         </div>
+                        <div class="icon-wrapper"><i class="fas fa-car icon"></i></div>
+                        <div class="card-content">
+                            <h3>Car Insurance</h3>
+                            <p>Comprehensive car insurance policies to protect your vehicle on the road.</p>
+                        </div>
+                         <div class="card-footer"><span class="company-tags"><span>TATA AIG</span><span>ICICI Lombard</span><span>Liberty</span></span></div>
+                    </div>
+                    <div class="service-card animate-on-scroll aos-flip-right aos-scale-sm delay-600 general-insurance">
+                         <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="A house model and keys representing general insurance for assets." loading="lazy">
+                         </div>
+                        <div class="icon-wrapper"><i class="fas fa-umbrella icon"></i></div>
+                        <div class="card-content">
+                            <h3>General Insurance</h3>
+                            <p>Complete coverage for travel, assets, and other general insurance needs.</p>
+                        </div>
+                         <div class="card-footer"><span class="company-tags"><span>TATA AIG</span></span></div>
+                    </div>
+                     <div class="service-card animate-on-scroll aos-flip-left aos-scale-sm delay-800 mutual-funds">
+                         <div class="card-image">
+                             <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=70" alt="Stock market chart indicating mutual funds and investments." loading="lazy">
+                         </div>
+                        <div class="icon-wrapper"><i class="fas fa-piggy-bank icon"></i></div>
+                        <div class="card-content">
+                            <h3>Mutual Funds & Investments</h3>
+                            <p>Grow your wealth with strategic mutual fund investments and financial instruments.</p>
+                        </div>
+                        <div class="card-footer"><span class="company-tags"><span>Prudent</span> <span>FundzBazaar</span></span></div>
+                    </div>
+                    <div class="service-card animate-on-scroll aos-flip-right aos-scale-sm delay-1000 payments-bank">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=70" alt="Smartphone displaying banking app, representing payments bank services." loading="lazy">
+                        </div>
+                       <div class="icon-wrapper"><i class="fas fa-university icon"></i></div>
+                       <div class="card-content">
+                           <h3>Payments Bank Services</h3>
+                           <p>Convenient banking solutions and digital payment services via Airtel Payments Bank.</p>
+                       </div>
+                       <div class="card-footer"><span class="company-tags"><span>Airtel Payments Bank</span></span></div>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section section-dark-bg section-divider top-angle bottom-angle">
+            <div class="container text-center">
+                <h2 class="animate-on-scroll aos-zoom-in">Our Commitment by the Numbers</h2>
+                <div class="stats-grid">
+                    <div class="stat-item animate-on-scroll aos-fade-up">
+                        <span class="stat-number" data-count="500" data-suffix="+">0</span>
+                        <span class="stat-label">Satisfied Clients</span>
+                    </div>
+                    <div class="stat-item animate-on-scroll aos-fade-up delay-200">
+                        <span class="stat-number" data-count="1000" data-suffix="+">0</span>
+                        <span class="stat-label">Policies Issued</span>
+                    </div>
+                    <div class="stat-item animate-on-scroll aos-fade-up delay-400">
+                        <span class="stat-number" data-count="15" data-suffix="+">0</span>
+                        <span class="stat-label">Years of Experience</span>
+                    </div>
+                    <div class="stat-item animate-on-scroll aos-fade-up delay-600">
+                        <span class="stat-number" data-count="98" data-suffix="%">0</span>
+                        <span class="stat-label">Client Retention</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="section section-divider top-angle bottom-angle">
+             <div class="container">
+                <h2 class="animate-on-scroll aos-zoom-in">Why Entrust Us With Your Future?</h2>
+                <div class="strengths-grid grid-focus-effect">
+                    <div class="strength-item animate-on-scroll aos-fade-up">
+                        <div class="strength-icon-wrapper"><i class="fas fa-user-tie strength-icon"></i></div>
+                        <div class="strength-content">
+                            <h4>Personalized Approach</h4>
+                            <p>Tailored financial strategies that align with your unique goals and circumstances.</p>
+                        </div>
+                    </div>
+                    <div class="strength-item animate-on-scroll aos-fade-up delay-200">
+                        <div class="strength-icon-wrapper"><i class="fas fa-balance-scale strength-icon"></i></div>
+                        <div class="strength-content">
+                            <h4>Ethical Guidance</h4>
+                            <p>Transparent and unbiased advice, always prioritizing your best interests.</p>
+                        </div>
+                    </div>
+                    <div class="strength-item animate-on-scroll aos-fade-up delay-400">
+                         <div class="strength-icon-wrapper"><i class="fas fa-trophy strength-icon"></i></div>
+                        <div class="strength-content">
+                            <h4>Proven Expertise</h4>
+                            <p>Years of experience and a track record of success in financial planning and advisory.</p>
+                        </div>
+                    </div>
+                    <div class="strength-item animate-on-scroll aos-fade-up delay-600">
+                        <div class="strength-icon-wrapper"><i class="fas fa-headset strength-icon"></i></div>
+                        <div class="strength-content">
+                            <h4>Dedicated Support</h4>
+                            <p>Ongoing support and guidance to navigate your financial journey effectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners" class="section section-light-bg section-divider top-angle bottom-angle">
+            <div class="container">
+                <h2 class="animate-on-scroll aos-zoom-in">Associated With Leading Institutions</h2>
+                 <div class="partners-logos animate-on-scroll aos-zoom-in delay-200">
+                    <div class="partner-logo animate-on-scroll aos-rotate-in delay-200"><img src="https://logo.clearbit.com/tataaia.com?size=150&format=png" alt="Logo of TATA AIA Life Insurance" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=TATA+AIA';"></div>
+                    <div class="partner-logo animate-on-scroll aos-rotate-in delay-300"><img src="https://logo.clearbit.com/starhealth.in?size=150&format=png" alt="Star Health Insurance Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=Star+Health';"></div>
+                    <div class="partner-logo animate-on-scroll aos-rotate-in delay-400"><img src="https://logo.clearbit.com/careinsurance.com?size=150&format=png" alt="Care Health Insurance Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=Care';"></div>
+                    <div class="partner-logo animate-on-scroll aos-rotate-in delay-500"><img src="https://logo.clearbit.com/tataaig.com?size=150&format=png" alt="TATA AIG General Insurance Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=TATA+AIG';"></div>
+                    <div class="partner-logo animate-on-scroll aos-rotate-in delay-550"><img src="https://logo.clearbit.com/icicilombard.com?size=150&format=png" alt="ICICI Lombard General Insurance Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=ICICI+Lombard';"></div>
+                    <div class="partner-logo animate-on-scroll aos-rotate-in delay-580"><img src="https://logo.clearbit.com/libertyinsurance.in?size=150&format=png" alt="Liberty General Insurance Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=Liberty';"></div>
+                    <div class=""partner-logo animate-on-scroll aos-rotate-in delay-600""><img src="https://logo.clearbit.com/prudentcorporate.com?size=150&format=png" alt="Prudent Mutual Funds Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=Prudent';"></div>          
+                    <div class="Screenshot 2025-06-04 205102.png" alt="Airtel Payments Bank Logo" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x60/cccccc/888888?text=Airtel+Bank';"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section section-dark-bg section-divider top-angle bottom-angle">
+             <div class="container">
+                <h2 class="animate-on-scroll aos-zoom-in">Client Success Stories</h2>
+                <div class="testimonial-slider animate-on-scroll aos-fade-up delay-200">
+                    <div class="testimonial-item">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote">"koushik has been instrumental in securing my family's financial future. His advice is always clear, honest, and incredibly helpful."</p>
+                        <cite>– A. Kumar, Happy Client</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-light-bg section-divider top-angle">
+            <div class="container">
+                <h2 class="animate-on-scroll aos-zoom-in">Get in Touch for a Brighter Financial Tomorrow</h2>
+                <div class="contact-layout animate-on-scroll aos-zoom-in delay-200">
+                    <div class="contact-details-block animate-on-scroll aos-fade-right delay-200">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Flat No. 101, Golden Park Apartment, Tarakarama Nagar, Karempudi Road, VINUKONDA - 522647, Palnadu Dist.</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+917780660803" class="text-link">+91 7780660803</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:chenchukoushik@gmail.com" class="text-link">chenchukoushik@gmail.com</a></p>
+                        <h3>Office Hours</h3>
+                        <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Sat: 10:00 AM - 2:00 PM</p>
+                        <p><i class="fas fa-times-circle"></i> Sunday: Closed</p>
+                    </div>
+                    <form id="contactForm" class="contact-form animate-on-scroll aos-fade-left delay-300">
+                        <h3 class="animate-on-scroll aos-skew-fade-up">Send Us a Message</h3>
+                        <div class="form-group animate-on-scroll aos-skew-fade-up delay-200">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="form-group animate-on-scroll aos-skew-fade-up delay-400">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group animate-on-scroll aos-skew-fade-up delay-600">
+                            <input type="tel" id="phone" name="phone" placeholder=" ">
+                            <label for="phone">Phone Number (Optional)</label>
+                        </div>
+                        <div class="form-group animate-on-scroll aos-skew-fade-up delay-800">
+                            <textarea id="message" name="message" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn animate-on-scroll aos-zoom-in delay-1000"><span class="btn-text">Submit Message</span></button>
+                        <div id="formSubmissionMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="animate-on-scroll aos-fade-right">
+                    <h4>koushik</h4>
+                    <p>MDRT+ Chief Life Planner. Your trusted partner for comprehensive financial solutions including insurance and investments.</p>
+                </div>
+                <div class="animate-on-scroll aos-fade-up delay-200">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#stats">Our Impact</a></li>
+                        <li><a href="#why-choose-us">Why Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="animate-on-scroll aos-fade-up delay-400">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Vinukonda, Palnadu Dist.</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 7780660803</p>
+                    <p><i class="fas fa-envelope"></i> koushik</p>
+                </div>
+                <div class="animate-on-scroll aos-fade-left delay-600">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/917780660803" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                © <span id="currentYear">2024</span> koushik Financial Advisory. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/7780660803?text=Hello%20Mr.%20koushik,%20I'm%20interested%20in%20your%20financial%20advisory%20services." target="_blank" id="whatsappBtn" title="Connect on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <button id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js" defer></script>
+</body>
+</html>
